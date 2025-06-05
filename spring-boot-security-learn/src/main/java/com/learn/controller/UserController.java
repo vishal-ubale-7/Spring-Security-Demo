@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController
 {
-    @Autowired
+    @Autowired // use the autowired annotations becuse create object ans call object automatacally
     private UserServices userServices;
   // get all user
   @GetMapping
