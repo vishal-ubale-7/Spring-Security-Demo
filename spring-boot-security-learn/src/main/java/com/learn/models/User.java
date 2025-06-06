@@ -6,9 +6,11 @@ public class User
     String password;
     String email;
 
+    // create no argument-constructor
     public User() {
     }
 
+    // create constructor
     public User(String username, String password, String email) {
         this.username = username;
         this.password = password;
@@ -16,6 +18,7 @@ public class User
 
     }
 
+    // create setter and getter method
     public String getUsername() {
         return username;
     }
