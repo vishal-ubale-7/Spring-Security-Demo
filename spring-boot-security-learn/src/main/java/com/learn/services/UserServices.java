@@ -7,6 +7,7 @@ import java.util.List;
 @Service
 public class UserServices
 {
+    // create object
     List<User> list =new ArrayList<>();
 
     public UserServices() {
