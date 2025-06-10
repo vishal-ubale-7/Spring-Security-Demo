@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/user")      // create end point
 public class UserController
 {
     @Autowired // use the autowired annotations becuse create object ans call object automatacally
