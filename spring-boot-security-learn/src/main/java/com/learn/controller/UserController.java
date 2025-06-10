@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping("/user")      // create end point
 public class UserController
 {
-    @Autowired // use the autowired annotations becuse create object ans call object automatacally
+    @Autowired // use the autowired annotations becuse create object and call object automatacally
     private UserServices userServices;
   // get all user
   @GetMapping
